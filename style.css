@@ -1,0 +1,115 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff; /* white background */
+    color: #1B3B6F; /* dark blue text */
+}
+
+/* Header */
+header {
+    background-color: #1B3B6F; /* dark blue */
+    color: #FFA64D; /* light orange text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #FFA64D; /* light orange */
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #1B3B6F; /* dark blue links */
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: #CCE5FF; /* light blue */
+    text-align: center;
+    padding: 50px 20px; /* reduced padding */
+    color: #1B3B6F;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* General layout */
+.container {
+    padding: 20px 20px; /* reduced padding */
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Services */
+.service-section {
+    margin-bottom: 10px; /* minimal space between service sections */
+}
+
+.service-section h3 {
+    margin-top: 0;
+    color: #FFA64D; /* light orange */
+}
+
+.service-section ul {
+    list-style: disc inside;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Specific spacing adjustments between main sections */
+#about {
+    margin-bottom: 10px; /* reduce space after About Us */
+}
+
+#services {
+    margin-bottom: 10px; /* reduce space after Our Services */
+}
+
+/* Legal sections */
+.legal {
+    background: #CCE5FF; /* light blue */
+    padding: 20px;
+    border-left: 5px solid #FFA64D; /* light orange accent */
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background: #1B3B6F; /* dark blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #FFA64D; /* light orange links */
+    text-decoration: underline;
+    margin: 0 6px;
+}
